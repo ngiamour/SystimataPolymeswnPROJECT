@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Game Over Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Game Over
+  m_TableCollectionNameGuidString: 58828dad9ef4fe64e90d770ea7f6eda8
+  m_Entries:
+  - m_Id: 38150246400
+    m_Key: titleKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119549104128
+    m_Key: continueKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1907929026560
+    m_Key: yesKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10938416533504
+    m_Key: noKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10996235014144
+    m_Key: scoreKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 634381310791680
+    m_Key: CONGRATULATIONS_key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 634478178242560
+    m_Key: YouWon_Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 634560067833856
+    m_Key: Restart_Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1355635940560896
+    m_Key: Play_Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1355697118679040
+    m_Key: Credits_Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1355888928395264
+    m_Key: Options_Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1355966258778112
+    m_Key: Quit_Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1373691924353024
+    m_Key: eng_key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1373733053698048
+    m_Key: greek_Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1373782491959296
+    m_Key: back_Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423683460435968
+    m_Key: intro_A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423768260874240
+    m_Key: intro_B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423840520343552
+    m_Key: intro_C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423957449150464
+    m_Key: intro_D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424080195457024
+    m_Key: intro_E
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424255513169920
+    m_Key: intro_F
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11963489584058368
+    m_Key: access_key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11971122063904768
+    m_Key: access_font
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11984126104997888
+    m_Key: access_fog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11984273283125248
+    m_Key: access_easy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11984394490122240
+    m_Key: access_icons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12183403632693248
+    m_Key: access_not_rec
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2262317116106735640
+  references:
+    version: 2
+    RefIds:
+    - rid: 2262317116106735640
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1745186323417

@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Game Over_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 58828dad9ef4fe64e90d770ea7f6eda8, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 38150246400
+    m_Localized: GAME OVER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119549104128
+    m_Localized: Continue?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1907929026560
+    m_Localized: YES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10938416533504
+    m_Localized: NO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10996235014144
+    m_Localized: Total Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 634381310791680
+    m_Localized: CONGRATULATIONS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 634478178242560
+    m_Localized: You won!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 634560067833856
+    m_Localized: Restart?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1355635940560896
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1355697118679040
+    m_Localized: Accessibility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1355888928395264
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1355966258778112
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1373691924353024
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1373733053698048
+    m_Localized: Greek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1373782491959296
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423683460435968
+    m_Localized: Your significant other has been kidnapped by your arch-nemesis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423768260874240
+    m_Localized: Race to the gates and save her.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423840520343552
+    m_Localized: Avoid incoming obstacles, and use any available powers and power-ups.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423957449150464
+    m_Localized: "And don\u2019t forget \u2014 collect those tea kettles!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424080195457024
+    m_Localized: The more you gather, the stronger you become
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424255513169920
+    m_Localized: Good luck!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11963489584058368
+    m_Localized: Accessibility Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11971122063904768
+    m_Localized: Larger Fonts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11984126104997888
+    m_Localized: Disable Fog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11984273283125248
+    m_Localized: Easy Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11984394490122240
+    m_Localized: '"Icons Above" Mode'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12183403632693248
+    m_Localized: Not recommended
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
