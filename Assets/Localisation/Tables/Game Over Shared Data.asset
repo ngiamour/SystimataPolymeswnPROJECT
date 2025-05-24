@@ -123,6 +123,22 @@ MonoBehaviour:
     m_Key: access_not_rec
     m_Metadata:
       m_Items: []
+  - m_Id: 12226872287858688
+    m_Key: how_move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12226890822488064
+    m_Key: how_jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12226907612286976
+    m_Key: how_roll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12226937324736512
+    m_Key: how_power
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

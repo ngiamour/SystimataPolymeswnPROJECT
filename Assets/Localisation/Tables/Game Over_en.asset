@@ -126,6 +126,22 @@ MonoBehaviour:
     m_Localized: Not recommended
     m_Metadata:
       m_Items: []
+  - m_Id: 12226872287858688
+    m_Localized: Move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12226890822488064
+    m_Localized: Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12226907612286976
+    m_Localized: Roll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12226937324736512
+    m_Localized: Power
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
