@@ -4,14 +4,19 @@ Inspired by tv-series "Alchemy of Souls"
 
 Pseudo Endless Runner -->
 Has:
+
 •Powers
+
 	-Magnet
 	-Double Score
 	-Sword
 	- Shield
+ 
 •Accessibility Options
+
 	-Larger Fonts
 	-Easy Mode
 	-Icons above obstacles and coins
 	-Disable Fog
+ 
 •Small Story
