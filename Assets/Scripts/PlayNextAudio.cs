@@ -15,6 +15,6 @@ public class PlayNextAudio : MonoBehaviour
 
     public void PlaySoundNow()
     {
-        _audioSource.PlayOneShot(clip,0.8f);
+        _audioSource.PlayOneShot(clip,0.67f);
     }
 }
