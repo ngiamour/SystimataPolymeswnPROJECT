@@ -178,7 +178,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:58828dad9ef4fe64e90d770ea7f6eda8
     m_TableEntryReference:
-      m_KeyId: 1355635940560896
+      m_KeyId: 12228268743626752
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -249,8 +249,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 77.27
-  m_fontSizeBase: 77.27
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1750,7 +1750,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Main
+          m_StringArgument: Intro_How
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &977525177

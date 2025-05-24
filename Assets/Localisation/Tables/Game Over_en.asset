@@ -142,6 +142,18 @@ MonoBehaviour:
     m_Localized: Power
     m_Metadata:
       m_Items: []
+  - m_Id: 12228268743626752
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12237738764832768
+    m_Localized: Music Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12237761602818048
+    m_Localized: SFX Audio
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

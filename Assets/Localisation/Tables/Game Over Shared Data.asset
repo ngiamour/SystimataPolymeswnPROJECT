@@ -139,6 +139,18 @@ MonoBehaviour:
     m_Key: how_power
     m_Metadata:
       m_Items: []
+  - m_Id: 12228268743626752
+    m_Key: continue_simple_key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12237738764832768
+    m_Key: volume_music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12237761602818048
+    m_Key: volume_sfx
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
