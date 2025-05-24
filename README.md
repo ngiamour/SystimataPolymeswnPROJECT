@@ -2,15 +2,14 @@ A video game that i made for my Uni Project
 Alchemy of Runners. Συστήματα Πολυμέσων Edition
 Inspired by tv-series "Alchemy of Souls"
 
-Pseudo Endless Runner -->
-Has:
+Pseudo Endless Runner:
 
 •Powers
 
 	-Magnet
 	-Double Score
 	-Sword
-	- Shield
+	-Shield
  
 •Accessibility Options
 
