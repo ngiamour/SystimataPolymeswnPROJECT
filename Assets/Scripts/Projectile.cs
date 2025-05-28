@@ -15,9 +15,19 @@ public class Projectile : MonoBehaviour
     {
         if (other.CompareTag("Obs"))
         {
-            Debug.Log("Bullet touch!");
-            Destroy(other.gameObject); // or apply damage
-            Destroy(gameObject);
+           // Debug.Log("Bullet touch!");
+           Transform parent = other.transform.parent;
+           if (parent != null)
+           {
+               AutoDestroyIcon iconScript = parent.GetComponentInChildren<AutoDestroyIcon>();
+               if (iconScript != null)
+               {
+                   iconScript.DestroyIcon();
+               }
+           }
+           
+           Destroy(other.gameObject); // or apply damage
+           Destroy(gameObject);
         }
     }
 }

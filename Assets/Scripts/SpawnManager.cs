@@ -121,10 +121,16 @@ public class SpawnManager : MonoBehaviour
         if (AccessibilityManager.Instance != null && AccessibilityManager.Instance.iconsAboveObjects && iconBillboardPrefab != null)
         {
             GameObject icon = Instantiate(iconBillboardPrefab);
-            Transform visualChild = target.transform.childCount > 0 ? target.transform.GetChild(0) : target.transform;
+        //    Transform visualChild = target.transform.childCount > 0 ? target.transform.GetChild(0) : target.transform;
             
-            icon.transform.SetParent(visualChild);
-            icon.transform.localPosition = new Vector3(0, 3f, 0); // height above the object
+            icon.transform.SetParent(target.transform);
+            if (target.name.StartsWith("PropC_Help"))
+            {
+              //  Debug.Log("im c ovah here");
+                icon.transform.localPosition = new Vector3(0, 4f, 0);
+            }
+            else
+                icon.transform.localPosition = new Vector3(0, 3f, 0); // height above the object
             
             // Find the icon's Image component
             RawImage iconImage = icon.GetComponentInChildren<RawImage>();
@@ -136,19 +142,16 @@ public class SpawnManager : MonoBehaviour
                 {
                     switch (so.category)
                     {
-                     //   case SpawnCategory.PowerUp:
-                     //       iconImage.texture = powerSprite.texture;
-                      //      break;
+                        case SpawnCategory.PowerUp:
+                            iconImage.texture = powerSprite.texture;
+                            break;
                         case SpawnCategory.Obstacle:
                             iconImage.texture = obstacleSprite.texture;
                             break;
                     }
                 }
             }
-            if (!target)
-            {
-                Destroy(iconImage);
-            }
+            
         }
     }
 }

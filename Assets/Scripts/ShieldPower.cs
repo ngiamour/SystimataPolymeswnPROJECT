@@ -38,6 +38,16 @@ public class ShieldPower : MonoBehaviour
                 Debug.Log("Shield destroyed: " + hit.name);
                 shieldObject.SetActive(false);
                 Destroy(hit.gameObject);
+                Transform parent = hit.transform.parent;
+                if (parent != null)
+                {
+                    AutoDestroyIcon iconScript = parent.GetComponentInChildren<AutoDestroyIcon>();
+                    if (iconScript != null)
+                    {
+                        iconScript.DestroyIcon();
+                    }
+                }
+                
 
                 break; // Use shield once only
             }

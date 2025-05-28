@@ -86,6 +86,7 @@ GameObject:
   - component: {fileID: 8931945975510233183}
   - component: {fileID: 8175757938285737141}
   - component: {fileID: 6567215459440933427}
+  - component: {fileID: 3452326586300610269}
   m_Layer: 0
   m_Name: IconBillboard
   m_TagString: Untagged
@@ -159,7 +160,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &8175757938285737141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,5 +188,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9d4c33cb00f64c24da251a353d6e1c62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3452326586300610269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4336810642435033393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcfd97bac2be2c64e83e31cc9b37a9dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
