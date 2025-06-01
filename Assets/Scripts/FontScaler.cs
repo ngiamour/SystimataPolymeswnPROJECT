@@ -5,51 +5,27 @@ using UnityEngine;
 
 public class FontScaler : MonoBehaviour
 {
-    [System.Serializable]
-    public class TMPFontEntry
+    public int fontSizeIncrease = 10;
+    private bool isLarge = false;
+
+    public void ToggleFontSize(bool isOn)
     {
-        public TMP_Text textComponent;
-        public float normalSize = 28f;
-        public float largeSize = 36f;
-        public bool boldInAccessibility = true;
-    }
+        TextMeshProUGUI[] texts = FindObjectsOfType<TextMeshProUGUI>(true);
 
-    public List<TMPFontEntry> entries;
-
-    public void changeFont(bool isOn)
-    {
-        Debug.Log("TOGGLE CHANGED: " + isOn);
-        if (isOn==true)
+        foreach (var tmp in texts)
         {
-            ApplyLargeFonts();
+            if (isOn && !isLarge)
+            {
+                tmp.fontSize += fontSizeIncrease;
+                AccessibilityManager.Instance.largeFonts = true;
+            }
+            else if (!isOn && isLarge)
+            {
+                tmp.fontSize -= fontSizeIncrease;
+                AccessibilityManager.Instance.largeFonts = false;
+            }
         }
-        else
-        {
-            ApplyDefaultFonts();
-        }
-    }
-    
-    public void ApplyLargeFonts()
-    {
-        AccessibilityManager.Instance.largeFonts = true;
-        foreach (var entry in entries)
-        {
-            entry.textComponent.fontSize = entry.largeSize;
 
-            if (entry.boldInAccessibility)
-                entry.textComponent.fontStyle |= FontStyles.Bold;
-        }
-    }
-
-    public void ApplyDefaultFonts()
-    {
-        AccessibilityManager.Instance.largeFonts = false;
-        foreach (var entry in entries)
-        {
-            entry.textComponent.fontSize = entry.normalSize;
-
-            // Remove bold if it was applied
-            entry.textComponent.fontStyle &= ~FontStyles.Bold;
-        }
+        isLarge = isOn;
     }
 }

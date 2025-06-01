@@ -38,6 +38,9 @@ public class AccessibilityManager : MonoBehaviour
         easyMode = true;
         */
         
+        if(largeFonts)
+            FindObjectOfType<FontScaler>().ToggleFontSize(true);
+        
         // Call other managers to apply settings
   //      FindObjectOfType<FontScaler>()?.ApplyLargeFonts();
         //   NarratorManager.Enable();
@@ -54,7 +57,7 @@ public class AccessibilityManager : MonoBehaviour
         iconsAboveObjects = false;
         easyMode = false;
 
-        FindObjectOfType<FontScaler>()?.ApplyDefaultFonts();
+        FindObjectOfType<FontScaler>()?.ToggleFontSize(false);
         //   NarratorManager.Disable();
         FindObjectOfType<DifficultyManager>()?.SetDefault();
         FindObjectOfType<IconOverlayManager>()?.ShowIcons(false);

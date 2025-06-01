@@ -154,6 +154,78 @@ MonoBehaviour:
     m_Localized: SFX Audio
     m_Metadata:
       m_Items: []
+  - m_Id: 15206897530343424
+    m_Localized: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15208112624406528
+    m_Localized: Show Wallpaper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15209309481635840
+    m_Localized: Show Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15222772970983424
+    m_Localized: Show My 3D Objects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15223705788387328
+    m_Localized: LEVEL DESIGN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15223789003378688
+    m_Localized: UI DESIGN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15223857945153536
+    m_Localized: TREES (3D)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15223934294069248
+    m_Localized: OBSTACLES (3D)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15224015437074432
+    m_Localized: POWERS+COIN (3D)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15224109796331520
+    m_Localized: CHARACTERS (3D)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15224177018441728
+    m_Localized: POWERS UI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15224254717923328
+    m_Localized: MAIN MENU +
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15224332526456832
+    m_Localized: GAME WON-LOSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15224551167135744
+    m_Localized: NIKOS GIAMOURIDIS (3001)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15224840586694656
+    m_Localized: ROCKS (3D)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15225686661697536
+    m_Localized: UNITY ASSET STORE (FREE)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15225856581341184
+    m_Localized: PROTOTYPE ASSETS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15226749284421632
+    m_Localized: PARTICLES
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
