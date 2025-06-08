@@ -226,6 +226,10 @@ MonoBehaviour:
     m_Localized: PARTICLES
     m_Metadata:
       m_Items: []
+  - m_Id: 16674042726486016
+    m_Localized: "Inspired by \xABAlchemy of Souls\xBB"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

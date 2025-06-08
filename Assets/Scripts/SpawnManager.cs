@@ -79,7 +79,7 @@ public class SpawnManager : MonoBehaviour
             switch (type)
             {
                 case SpawnType.GroundOnly:
-                    y = 0.1f; // ground level
+                    y = 0f; // ground level
                     break;
                 case SpawnType.AirOnly:
                     x = spawnPos.position.x;
@@ -109,7 +109,7 @@ public class SpawnManager : MonoBehaviour
                 var position = spawnPos.position;
                 float x = position.x;
                 float z = position.z;
-                float y = 0f;
+                float y = -1f;
 
                 return new Vector3(x, y, z);
             }

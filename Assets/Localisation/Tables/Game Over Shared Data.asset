@@ -223,6 +223,10 @@ MonoBehaviour:
     m_Key: PARTICL
     m_Metadata:
       m_Items: []
+  - m_Id: 16674042726486016
+    m_Key: inspired
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
